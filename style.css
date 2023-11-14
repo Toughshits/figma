@@ -1,10 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
 *{
   margin: 0;
   padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Lato', sans-serif;
 }
-
-
 
 #main-id {
   background: url(img/rectangle9.png) no-repeat 0;
@@ -71,16 +71,14 @@
   color: white;
   border-radius: 40px;
   height: 40px;
-  width: 100px;
+  /* width: 100px; */
+  display: flex;
+  width: 236px;
+  padding: 16px 0px;
+  flex-direction: column;
+  align-items: center;
 }
- 
-  .calender .container{
-    font-size: 74px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 84px; /* 113.514% */
-  letter-spacing: 0.2px;
-  }
+ m      
   #teams {
     display: flex;
     flex-direction: column;
@@ -103,6 +101,37 @@
   nav li a:hover{
     text-decoration: underline;
   }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+  }
+  .container h1{
+    font-family: Graphik;
+    text-align: center;
+    font-size: 74px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 84px; /* 113.514% */
+    letter-spacing: 0.2px;
+    }
+  .container p{
+    font-family: Graphik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 142.857% */
+    letter-spacing: 0.2px;
+    width: 65%;
+  }
+  /* .button{
+    display: flex;
+    width: 236px;
+    padding: 16px 0px;
+    flex-direction: column;
+    align-items: center;
+  } */
   /* #features {
 
   } */
